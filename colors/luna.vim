@@ -136,7 +136,7 @@ hi Underlined    guifg=#80a0ff guibg=NONE    gui=underline
 " ---------------------------------------------------------------------
 " hi Ignore        guifg= guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
-hi Error         guifg=#870000 guibg=NONE gui=undercurl guisp=red
+hi Error         guifg=#ffff87 guibg=#870000 gui=NONE guisp=red
 " ---------------------------------------------------------------------
 hi TODO          guifg=#ff0087 guibg=#ffff87 gui=NONE
 

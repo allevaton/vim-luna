@@ -132,11 +132,11 @@ hi Special       guifg=#ff8da1 guibg=NONE    gui=NONE
 " hi SpecialComment           guifg= guibg=NONE    gui=NONE
 " hi Debug           guifg= guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
-hi Underlined    guifg=#80a0ff guibg=NONE    gui=NONE
+hi Underlined    guifg=#80a0ff guibg=NONE    gui=underline
 " ---------------------------------------------------------------------
 " hi Ignore        guifg= guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
-hi Error         guifg=#870000 guibg=#ffa40b gui=NONE
+hi Error         guifg=#870000 guibg=NONE gui=undercurl guisp=red
 " ---------------------------------------------------------------------
 hi TODO          guifg=#ff0087 guibg=#ffff87 gui=NONE
 
@@ -152,17 +152,17 @@ hi MoreMsg       guifg=#616161 guibg=NONE    gui=NONE
 hi ModeMsg       guifg=#616161 guibg=NONE    gui=NONE
 hi LineNr        guifg=#838383 guibg=NONE    gui=NONE
 hi VertSplit     guifg=#212121 guibg=#474747 gui=NONE
-hi VisualNOS     guifg=#262626 guibg=#ffff4d gui=NONE
+hi VisualNOS     guifg=#262626 guibg=#ffff0d gui=NONE
 "hi Folded        guifg=#2e4545 guibg=#1e2d2d gui=NONE
 hi Folded        guifg=#426464 guibg=#1e2d2d gui=NONE
 hi DiffAdd       guifg=#ffffff guibg=#006600 gui=NONE
 hi DiffChange    guifg=#ffffff guibg=#007878 gui=NONE
 hi DiffDelete    guifg=#ff0101 guibg=#9a0000 gui=NONE
 hi DiffText      guifg=#000000 guibg=#ffb733 gui=NONE
-hi SpellBad      guifg=#d80000 guibg=#ffff9a gui=NONE
-hi SpellCap      guifg=#8b4600 guibg=#ffff9a gui=NONE
-hi SpellRare     guifg=#ff0000 guibg=#ffff9a gui=NONE
-hi SpellLocal    guifg=#008b00 guibg=#ffff9a gui=NONE
+hi SpellBad      guisp=red gui=undercurl
+hi SpellCap      guisp=yellow gui=undercurl
+hi SpellRare     guisp=yellow gui=undercurl
+hi SpellLocal    guisp=yellow gui=undercurl
 " hi StatusLine    guifg=#000000 guibg=#8d8d8d gui=NONE
 " hi StatusLine    guifg=#ffffff guibg=#2e4545 gui=NONE
 " hi StatusLine    guifg=#ffffff guibg=#1e2d2d gui=NONE
